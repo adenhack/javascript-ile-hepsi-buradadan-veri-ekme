@@ -1,0 +1,100 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .banner-top {
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;
+        padding: 0 auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner-in {
+        width: 75%;
+        height: 50px;
+        /* background-color: #52593b; */
+        background-color: #555d50;
+        font-size: 35px;
+        padding-left: 50px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+    .top-container {
+        margin: auto;
+        padding: auto;
+        width: 80%;
+        min-height: 1300px;
+    }
+    
+    .list {
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container2 {
+        border: 1px solid grey;
+        /* genişlik */
+        width: 250px;
+        /* yükseklik */
+        height: 410px;
+        margin: 5px 5px;
+        position: relative;
+    }
+    /* resim */
+    
+    .urunresim {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 10px 10px;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        padding: auto;
+    }
+    /* liste div yapısı */
+    
+    .urunler {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+    }
+    /* başlık */
+    
+    .liste1 {
+        padding: 5px 20px 5px 20px !important;
+        text-align: center;
+        height: 110px;
+    }
+    /* fiyat */
+    
+    .liste2 {
+        padding: 5px 20px 5px 20px !important;
+        text-align: center;
+        color: green;
+        font-size: 25px;
+    }
+    /* button */
+    
+    .liste3 {
+        padding: 5px 20px 5px 20px !important;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .btn.btn-primary:hover {
+        background-color: black;
+    }
